@@ -1,4 +1,43 @@
-.character-card {
+.character-detail-card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.character-detail-card img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.character-info
+{
+    text-align: center;
+}
+
+.character-info h1
+{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.character-info p
+{
+    margin: 5px 0;
+}
+
+.character-card
+{
     max-width: 300px;
     min-width: 300px;
     border: 1px solid #ccc;
@@ -8,16 +47,19 @@
     gap: 10px;
 }
 
-.character-card img {
+.character-card img
+{
     width: 100px;
     height: 100px;
     border-radius: 50%;
 }
 
-.character-card-info h3 {
+.character-card-info h3
+{
     margin: 0;
 }
 
-.character-card-info p {
+.character-card-info p
+{
     margin: 10px 0 0 0;
 }
